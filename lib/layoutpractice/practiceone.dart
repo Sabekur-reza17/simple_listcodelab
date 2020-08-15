@@ -19,7 +19,7 @@ class LayoutPracticeOne extends StatelessWidget{
 }
 
 Widget myLayoutWidget() {
-  return Container(
+  /*return Container(
     margin: EdgeInsets.all(30.0),
     padding: EdgeInsets.all(10.0),
     alignment: Alignment.topCenter,
@@ -30,5 +30,22 @@ Widget myLayoutWidget() {
       border: Border.all()
     ),
     child: Text("Hello",style: TextStyle(fontSize: 30),),
+  );*/
+  return Row(
+    children: <Widget>[
+      Expanded(
+        flex: 7,
+        child: Container(
+          color: Colors.green,
+        ),
+      ),
+      Expanded(
+        flex: 3,
+        child: Container(
+          color:Colors.yellow,
+        ),
+      )
+
+    ],
   );
 }
