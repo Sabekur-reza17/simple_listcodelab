@@ -31,7 +31,7 @@ Widget myLayoutWidget() {
     ),
     child: Text("Hello",style: TextStyle(fontSize: 30),),
   );*/
-  return Row(
+  /*return Row(
     children: <Widget>[
       Expanded(
         flex: 7,
@@ -46,6 +46,19 @@ Widget myLayoutWidget() {
         ),
       )
 
+    ],
+  );*/
+  return Stack(
+    alignment: Alignment.bottomCenter,
+    children: <Widget>[
+      Image.asset('assets/imageone.png'),
+      Padding(
+        padding: EdgeInsets.all(16.0),
+        child: Text(
+          'Stack example',
+          style: TextStyle(fontSize: 30),
+        ),
+      )
     ],
   );
 }
