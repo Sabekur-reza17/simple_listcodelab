@@ -8,7 +8,8 @@ import 'layoutpractice/singlelayoutexampleone.dart';
 import 'layoutpractice/multichildexampleone.dart';
 import 'layoutpractice/MultipleLayoutExTwo.dart';
 import 'layoutpractice/practiceone.dart';
+import 'animations/AnimatinExOne.dart';
 /*void main() => runApp(MyLonglists(
   products: List<String>.generate(500, (i) => "Product List: $i"),
 ));*/
-void main() {runApp(LayoutPracticeOne());}
+void main() {runApp(AnimationExOne());}
