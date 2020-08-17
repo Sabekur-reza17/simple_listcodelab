@@ -12,7 +12,9 @@ import 'animations/AnimatinExOne.dart';
 import 'animations/AnimatinExTwo.dart';
 import 'drawers/DrawerExampleOne.dart';
 import 'layoutpractice/layoutorientation.dart';
+import 'tabs/TabBarDemo.dart';
+import 'images/ImageFromNetwork.dart';
 /*void main() => runApp(MyLonglists(
   products: List<String>.generate(500, (i) => "Product List: $i"),
 ));*/
-void main() {runApp(LayoutOrientation());}
+void main() {runApp(ImageFromNetwork());}
