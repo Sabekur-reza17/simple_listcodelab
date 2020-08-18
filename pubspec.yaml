@@ -23,9 +23,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  shared_preferences: ^0.5.8
   json_annotation: ^3.0.1
   built_collection: ^4.3.2
   built_value: ^7.0.4
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -35,6 +37,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  camera:
+  path_provider:
+  path:
+  shared_preferences:
   build_runner: ^1.7.2
   built_value_generator: ^7.0.4
   json_serializable: ^3.2.5
