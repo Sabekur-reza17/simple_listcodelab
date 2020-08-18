@@ -14,9 +14,15 @@ import 'drawers/DrawerExampleOne.dart';
 import 'layoutpractice/layoutorientation.dart';
 import 'tabs/TabBarDemo.dart';
 import 'images/ImageFromNetwork.dart';
+import 'storages/SharedPreferencePractice.dart';
 /*void main() => runApp(MyLonglists(
   products: List<String>.generate(500, (i) => "Product List: $i"),
 ));*/
+
+void main() {runApp(SharedPreferencePractice());}
+
+
+/*
 import 'dart:async';
 import 'dart:io';
 import 'package:camera/camera.dart';
@@ -118,5 +124,6 @@ class DisplayPictureScreen extends StatelessWidget {
     throw UnimplementedError();
   }
 }
+*/
 
-/*void main() {runApp(ImageFromNetwork());}*/
+
